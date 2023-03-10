@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+
+<!--<class name="dsalgo_Testscenarios.Register_TC"></class>-->
+<class name="dsalgo_Testscenarios.Login_TC"></class>
+<class name="dsalgo_Testscenarios.Data_Structures_TC"></class>
+<class name="dsalgo_Testscenarios.Arraypage_TC"></class>
+<class name="dsalgo_Testscenarios.LinkedList_TC"></class>
+<class name="dsalgo_Testscenarios.Stack_TC"></class>
+<class name="dsalgo_Testscenarios.Queue_TC"></class>
+  <class name="dsalgo_Testscenarios.Tree_TC"></class>
+<class	 name="dsalgo_Testscenarios.Graph_TC"></class>	
+
+  
+       </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 47, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 87.157 s <<< FAILURE! - in TestSuite
+aa_loginDDT(dsalgo_Testscenarios.Login_TC)  Time elapsed: 1.753 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at dsalgo_Testscenarios.Login_TC.aa_loginDDT(Login_TC.java:71)
+
+arraysinpython(dsalgo_Testscenarios.Arraypage_TC)  Time elapsed: 0.675 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at dsalgo_Testscenarios.Arraypage_TC.arraysinpython(Arraypage_TC.java:55)
+
+arraysusinglist(dsalgo_Testscenarios.Arraypage_TC)  Time elapsed: 1.807 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at dsalgo_Testscenarios.Arraypage_TC.arraysusinglist(Arraypage_TC.java:85)
+
+Basic_Oprtations_list(dsalgo_Testscenarios.Arraypage_TC)  Time elapsed: 1.543 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at dsalgo_Testscenarios.Arraypage_TC.Basic_Oprtations_list(Arraypage_TC.java:113)
+
+Applications_of_Array(dsalgo_Testscenarios.Arraypage_TC)  Time elapsed: 0.989 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at dsalgo_Testscenarios.Arraypage_TC.Applications_of_Array(Arraypage_TC.java:141)
+
+Practice_Questions(dsalgo_Testscenarios.Arraypage_TC)  Time elapsed: 0.595 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at dsalgo_Testscenarios.Arraypage_TC.assertverify_practiceq(Arraypage_TC.java:291)
+	at dsalgo_Testscenarios.Arraypage_TC.Practice_Questions(Arraypage_TC.java:157)
+
+back_to_home(dsalgo_Testscenarios.Graph_TC)  Time elapsed: 0.116 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at dsalgo_Testscenarios.Graph_TC.back_to_home(Graph_TC.java:134)
+
